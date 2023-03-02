@@ -1,0 +1,16 @@
+adduser.conf
+alternatives
+apache2
+apparmor.d
+apt
+avahi
+bash.bashrc
+vsftpd.conf
+wgetrc
+wpa_supplicant
+X11
+xattr.conf
+xdg
+ 
+ls /etc -x1 | head -n 7 > first7_last6_etc; ls /etc -x1 | tail -n 6 >> first7_last6_etc
+

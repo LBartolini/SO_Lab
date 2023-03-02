@@ -1,0 +1,9 @@
+dhclient
+dhclient-script
+mysqld
+visudo
+mkfs.ntfs
+mkntfs
+mount.lowntfs-3g
+mount.ntfs
+ 2032  ls -t /usr/sbin | head -n 8 > 8_last_modified_usr_sbin
