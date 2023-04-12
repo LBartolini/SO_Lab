@@ -1,0 +1,5 @@
+printf è line buffered
+il fine stringa per il buffer è \n, quindi finchè non viene trovato non si stampa a video
+l'exit svuota il buffer stampando a video quello che è rimasto
+attenzione a come si comporta con i figli
+NB: i figli generati dalla fork hanno lo stesso buffer che aveva il padre prima della fork
